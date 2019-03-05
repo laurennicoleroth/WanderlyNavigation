@@ -6,6 +6,9 @@ target 'WanderlyNavigation' do
   use_frameworks!
 
   pod 'SwiftVideoBackground'
+  pod 'Pring'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
   target 'WanderlyNavigationTests' do
     inherit! :search_paths

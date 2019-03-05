@@ -7,14 +7,14 @@
 //
 
 import UIKit
-import SwiftVideoBackground
+
 
 class SplashViewController: UIViewController {
   @IBOutlet var backgroundImageView: UIImageView!
   
   override func viewWillAppear(_ animated: Bool) {
     let number = Int.random(in: 1 ..< 7)
-    try? VideoBackground.shared.play(view: backgroundImageView, videoName: "\(number)", videoType: "mov")
+//    try? VideoBackground.shared.play(view: backgroundImageView, videoName: "\(number)", videoType: "mov")
   }
   
   @IBAction func signupButtonTouched(_ sender: Any) {

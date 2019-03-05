@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--View Controller-->
         <scene sceneID="3RE-Ql-88Y">
             <objects>
                 <viewController id="EfC-fp-hq7" sceneMemberID="viewController">
@@ -20,13 +20,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="RNy-Gk-oni"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="ye9-oA-ehv"/>
+                    <tabBarItem key="tabBarItem" title="" image="discovery_line_icon" id="ye9-oA-ehv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uyt-6n-qrf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18" y="326"/>
+            <point key="canvasLocation" x="-1572" y="797"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="zAm-Xg-Rgs">
             <objects>
                 <viewController id="mEl-v5-N4i" sceneMemberID="viewController">
@@ -36,29 +36,29 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iE8-Ye-edU"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Coe-Pq-XiO"/>
+                    <tabBarItem key="tabBarItem" title="" image="home_line_icon" id="Coe-Pq-XiO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1s-Kc-Axo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="1021"/>
+            <point key="canvasLocation" x="-2785" y="730"/>
         </scene>
-        <!--Item 1-->
+        <!--View Controller-->
         <scene sceneID="q9t-Qa-nY1">
             <objects>
-                <viewController storyboardIdentifier="MainTabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Scr-3B-9Sc" sceneMemberID="viewController">
+                <viewController id="Scr-3B-9Sc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="29R-AL-QSW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="M4b-Cd-c11"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Fwi-yC-jZ2"/>
+                    <tabBarItem key="tabBarItem" title="" image="plus_home_icon" id="Fwi-yC-jZ2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPF-b9-wOH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18" y="-339"/>
+            <point key="canvasLocation" x="-225" y="797"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="wgz-4q-AbX">
             <objects>
                 <viewController id="TUn-Ao-0dQ" sceneMemberID="viewController">
@@ -68,11 +68,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="PQt-uB-hpC"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="1Y0-Td-DGO"/>
+                    <tabBarItem key="tabBarItem" title="" image="user_line_icon" id="1Y0-Td-DGO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPL-58-ZNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17" y="-1012"/>
+            <point key="canvasLocation" x="766" y="730"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8t9-9h-vNi">
@@ -95,4 +95,10 @@
             <point key="canvasLocation" x="-934" y="-6"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="discovery_line_icon" width="22.399999618530273" height="22.399999618530273"/>
+        <image name="home_line_icon" width="38.400001525878906" height="38.400001525878906"/>
+        <image name="plus_home_icon" width="38.400001525878906" height="38.400001525878906"/>
+        <image name="user_line_icon" width="38.400001525878906" height="38.400001525878906"/>
+    </resources>
 </document>
