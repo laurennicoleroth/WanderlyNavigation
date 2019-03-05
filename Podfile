@@ -6,6 +6,7 @@ target 'WanderlyNavigation' do
   use_frameworks!
 
   pod 'Mapbox-iOS-SDK'
+  pod 'SwiftVideoBackground'
 
   target 'WanderlyNavigationTests' do
     inherit! :search_paths
