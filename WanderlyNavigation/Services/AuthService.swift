@@ -6,6 +6,7 @@
 //  Copyright © 2019 Lauren Nicole Roth. All rights reserved.
 //
 
+import Firebase
 
 class AuthService {
   static let instance = AuthService()
