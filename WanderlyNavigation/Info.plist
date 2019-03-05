@@ -20,6 +20,16 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoibGF1cmVubmljb2xlcm90aCIsImEiOiJjanNveW0weGMwZzU4NDRvZWg4Znp6NjRnIn0.Hklt-YEm4TUoApTDQclgpw</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Wanderly logs your location to help you find amazing places to visit. It works best when you allow background location updates. Logged data never leaves the device.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Wanderly logs your location to help you find amazing places to visit. It works best when you allow background location updates. Logged data never leaves the device.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
