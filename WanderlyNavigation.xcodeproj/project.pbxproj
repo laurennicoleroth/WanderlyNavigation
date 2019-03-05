@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2342B8A1DE55801F09F0A8B2 /* Pods_WanderlyNavigationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898053E7F437BDBFD7B4F50D /* Pods_WanderlyNavigationTests.framework */; };
+		925792C540019633B1619689 /* Pods_WanderlyNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CBE91F56DE2A330069A50F /* Pods_WanderlyNavigation.framework */; };
 		96917CC9222EE1F8003DFEE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96917CC8222EE1F8003DFEE1 /* AppDelegate.swift */; };
 		96917CCB222EE1F8003DFEE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96917CCA222EE1F8003DFEE1 /* ViewController.swift */; };
 		96917CCE222EE1F8003DFEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96917CCC222EE1F8003DFEE1 /* Main.storyboard */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33CBE91F56DE2A330069A50F /* Pods_WanderlyNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanderlyNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4EB5DE06605C4C6D246E00 /* Pods-WanderlyNavigationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanderlyNavigationTests.debug.xcconfig"; path = "Target Support Files/Pods-WanderlyNavigationTests/Pods-WanderlyNavigationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		898053E7F437BDBFD7B4F50D /* Pods_WanderlyNavigationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanderlyNavigationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96917CC5222EE1F8003DFEE1 /* WanderlyNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanderlyNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96917CC8222EE1F8003DFEE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96917CCA222EE1F8003DFEE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		96917CDC222EE1F9003DFEE1 /* WanderlyNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderlyNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96917CE0222EE1F9003DFEE1 /* WanderlyNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanderlyNavigationTests.swift; sourceTree = "<group>"; };
 		96917CE2222EE1F9003DFEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0BDF4E73E4174696617FCC /* Pods-WanderlyNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanderlyNavigation.release.xcconfig"; path = "Target Support Files/Pods-WanderlyNavigation/Pods-WanderlyNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		EF364B5B57EE9FBD927EAA55 /* Pods-WanderlyNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanderlyNavigation.debug.xcconfig"; path = "Target Support Files/Pods-WanderlyNavigation/Pods-WanderlyNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		FF81A0D6EFFAD4A48F6C08ED /* Pods-WanderlyNavigationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanderlyNavigationTests.release.xcconfig"; path = "Target Support Files/Pods-WanderlyNavigationTests/Pods-WanderlyNavigationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925792C540019633B1619689 /* Pods_WanderlyNavigation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2342B8A1DE55801F09F0A8B2 /* Pods_WanderlyNavigationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C620B39C74C1946791C08E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF364B5B57EE9FBD927EAA55 /* Pods-WanderlyNavigation.debug.xcconfig */,
+				AB0BDF4E73E4174696617FCC /* Pods-WanderlyNavigation.release.xcconfig */,
+				4A4EB5DE06605C4C6D246E00 /* Pods-WanderlyNavigationTests.debug.xcconfig */,
+				FF81A0D6EFFAD4A48F6C08ED /* Pods-WanderlyNavigationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		96917CBC222EE1F8003DFEE1 = {
 			isa = PBXGroup;
 			children = (
 				96917CC7222EE1F8003DFEE1 /* WanderlyNavigation */,
 				96917CDF222EE1F9003DFEE1 /* WanderlyNavigationTests */,
 				96917CC6222EE1F8003DFEE1 /* Products */,
+				0C620B39C74C1946791C08E5 /* Pods */,
+				DD642B75788B295493E26000 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,15 @@
 			path = WanderlyNavigationTests;
 			sourceTree = "<group>";
 		};
+		DD642B75788B295493E26000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33CBE91F56DE2A330069A50F /* Pods_WanderlyNavigation.framework */,
+				898053E7F437BDBFD7B4F50D /* Pods_WanderlyNavigationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96917CE5222EE1F9003DFEE1 /* Build configuration list for PBXNativeTarget "WanderlyNavigation" */;
 			buildPhases = (
+				3C234A07C32A141D4260448B /* [CP] Check Pods Manifest.lock */,
 				96917CC1222EE1F8003DFEE1 /* Sources */,
 				96917CC2222EE1F8003DFEE1 /* Frameworks */,
 				96917CC3222EE1F8003DFEE1 /* Resources */,
+				1E495F1D72295D32B87A5F27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96917CE8222EE1F9003DFEE1 /* Build configuration list for PBXNativeTarget "WanderlyNavigationTests" */;
 			buildPhases = (
+				D71C183165D116D761335538 /* [CP] Check Pods Manifest.lock */,
 				96917CD8222EE1F9003DFEE1 /* Sources */,
 				96917CD9222EE1F9003DFEE1 /* Frameworks */,
 				96917CDA222EE1F9003DFEE1 /* Resources */,
@@ -194,6 +230,77 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E495F1D72295D32B87A5F27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanderlyNavigation/Pods-WanderlyNavigation-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WanderlyNavigation/Pods-WanderlyNavigation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C234A07C32A141D4260448B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanderlyNavigation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D71C183165D116D761335538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanderlyNavigationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96917CC1222EE1F8003DFEE1 /* Sources */ = {
@@ -362,6 +469,7 @@
 		};
 		96917CE6222EE1F9003DFEE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF364B5B57EE9FBD927EAA55 /* Pods-WanderlyNavigation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +488,7 @@
 		};
 		96917CE7222EE1F9003DFEE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0BDF4E73E4174696617FCC /* Pods-WanderlyNavigation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +507,7 @@
 		};
 		96917CE9222EE1F9003DFEE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4EB5DE06605C4C6D246E00 /* Pods-WanderlyNavigationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +529,7 @@
 		};
 		96917CEA222EE1F9003DFEE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF81A0D6EFFAD4A48F6C08ED /* Pods-WanderlyNavigationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
