@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "edc0119c8cdc2bc13166f8c69b928dd0"
+build_time: [1551805051, 414665000]
+inputs:
+  "/Users/laurennicoleroth/Development/WanderlyNavigation/WanderlyNavigation/ViewController.swift": [1551805048, 0]
+  "/Users/laurennicoleroth/Development/WanderlyNavigation/WanderlyNavigation/AppDelegate.swift": [1551805048, 0]
